@@ -1,0 +1,99 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+<audio id="bgMusic" loop>
+    <source src="media/bgm.mp3" type="audio/mp3">
+</audio>
+
+<!-- Floating Hearts -->
+<div class="hearts"></div>
+
+<!-- Main Intro -->
+<div class="main-page">
+
+  <h2 class="top-text">
+    “Hey cutie 💖 <br>
+    Happy birthday May You achieve all your goals<br>and stay Happy & Healthy always 🎀
+    ”
+  </h2>
+
+  <img src="images/bubu.png" class="bubu">
+
+  <h1>Once again HAPPY BIRTHDAY NIDHU..... 🎂💖</h1>
+
+  <img src="images/cake.png" class="cake">
+
+  <button onclick="showGifts()">Let's Begin ✨</button>
+
+</div>
+
+<!-- Gift Section -->
+<!-- Gift Section -->
+<div class="gift-page" id="giftPage">
+
+  <h2>Choose a gift to open 🎁</h2>
+
+  <div class="gift-container">
+
+    <div class="gift" onclick="openMessage()">
+      🎁
+      <p>Open me</p>
+    </div>
+
+    <div class="gift" onclick="openPhotos()">
+      🎁
+      <p>one more😉</p>
+    </div>
+
+    <div class="gift" onclick="openAudio()">
+      🎁
+      <p>Open me  with earphones warning de di h baad mai mat bolna 😅😂</p>
+    </div>
+
+    <div class="gift" onclick="openVideo()">
+      🎁
+      <p>click me</p>
+    </div>
+
+  </div>
+
+</div>
+
+
+<!-- Popup -->
+<div class="popup" id="popup">
+
+  <div class="popup-content" id="popupContent"></div>
+
+</div>
+
+
+<!-- Final Cake Surprise -->
+
+<div class="final-cake" id="finalCake">
+
+  <h1>🎂</h1>
+
+  <img src="images/cake-final.png" class="final-cake-img">
+
+  <div class="candle" onclick="blowCandle()">🕯️</div>
+
+  
+
+  <h2> <br>Let's cut the cake 💖</h2>
+
+  <div class="boom" id="boom">🎉✨🎊💥</div>
+
+</div>
+<script src="script.js"></script>
+
+</body>
+</html>
